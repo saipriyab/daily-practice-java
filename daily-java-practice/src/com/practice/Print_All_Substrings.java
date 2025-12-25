@@ -9,6 +9,7 @@ public class Print_All_Substrings {
 	{
 		for(int j=i+1;j<=str.length();j++)
 		{
+			//substring also will have loop
 			System.out.println(str.substring(i,j));
 		}
 	}
@@ -19,6 +20,7 @@ public class Print_All_Substrings {
 	{
 		for(int j=i;j<str.length();j++)
 		{
+			//substring also will have loop
 			System.out.println(str.substring(i,j+1));
 		}
 	}
